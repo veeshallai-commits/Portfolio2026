@@ -7,23 +7,39 @@ const tabs = [
         icon: '✦',
         gradient: 'linear-gradient(135deg, #1a1f2e, #2a2f3e)', // Dark blue
         content:
-            'I believe in design that is not just seen, but felt. Every pixel should serve a purpose, and every interaction should feel like a natural extension of the user\'s intent. My approach blends cinematic aesthetics with functional precision.',
+            'I believe great design is not just visual — it’s intentional. Every layout, color, and interaction should serve a purpose. My approach focuses on clarity, emotional impact, and creating interfaces that feel natural and effortless to use.',
     },
     {
         id: 'tech',
-        title: 'Core Tech Stack',
+        title: 'Strategic Brand Thinking',
         icon: '◈',
         gradient: 'linear-gradient(135deg, #ff7f50, #ff4500)', // Orange gradient
         content:
-            'Building with React, GSAP, and Three.js to create performant, highly-animated digital experiences. I focus on optimising load times while pushing the boundaries of what the browser can do.',
+            'Strong digital products are rooted in strong brand foundations. I approach every project by understanding the brand’s voice, positioning, and audience to ensure the design communicates identity, trust, and long-term value.',
     },
     {
         id: 'strategy',
-        title: 'Brand Strategy',
+        title: 'Craft & Quality Standards',
         icon: '◎',
         gradient: 'linear-gradient(135deg, #2a4f2e, #3a6f3e)', // Bottle green gradient
         content:
-            'Branding is the narrative that connects a vision to its audience. I help brands find their unique voice through Luxury Tech Spatialism — a blend of high-end aesthetics and futuristic thinking.',
+            'Quality is in the details. From typography and spacing to interaction feedback, I hold every element to a high standard of precision to create polished experiences that feel refined and professional.',
+    },
+    {
+        id: 'ux',
+        title: 'Structured Planning & Execution',
+        icon: '✧',
+        gradient: 'linear-gradient(135deg, #4a2f6e, #6a3f9e)', // Purple gradient
+        content:
+            'Great outcomes come from thoughtful process. I approach projects with clear planning, defined milestones, and iterative feedback, ensuring ideas move smoothly from concept to implementation.',
+    },
+    {
+        id: 'innovation',
+        title: 'Automation & AI Integration',
+        icon: '◈',
+        gradient: 'linear-gradient(135deg, #00bcd4, #0097a7)', // Cyan gradient
+        content:
+            'I leverage AI and automation to streamline repetitive tasks, accelerate workflows, and focus more energy on creative problem-solving. This allows projects to move faster while maintaining high quality and consistency.',
     },
 ];
 

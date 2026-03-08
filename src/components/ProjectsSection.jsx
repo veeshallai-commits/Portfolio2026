@@ -14,7 +14,8 @@ const projects = [
         description: 'An AI-powered storytelling channel that produces engaging narrative videos using automated script generation, voice synthesis, and visual storytelling workflows designed for scalable YouTube content production.',
         tags: ['AI Automation', 'Video Production', 'Storytelling', 'YouTube'],
         url: 'https://www.youtube.com/@thedivinespark-veep',
-        linkText: 'Visit Channel'
+        linkText: 'Visit Channel',
+        image: '/src/assets/images/thedivinespark-veep.png' // Added image property
     },
     {
         name: 'AI Influencer & Social Content Engine',
@@ -22,7 +23,8 @@ const projects = [
         description: 'A virtual AI influencer system designed to generate Instagram reels, posts, and promotional ads using AI-generated characters, automated content scripting, and social media optimization workflows.',
         tags: ['AI Characters', 'Social Media', 'Content Creation', 'Instagram'],
         url: 'https://instagram.com/iamshrishaa',
-        linkText: 'View Profile'
+        linkText: 'View Profile',
+        image: '/src/assets/images/iamshrishaa_ai_influencer.png' // Updated image property
     },
 ];
 
@@ -68,8 +70,13 @@ const ProjectsSection = () => {
                             <span className="project-category">{project.category}</span>
                         </div>
                         <p className="project-description">{project.description}</p>
-                        <div className="project-image-placeholder">
-                            <img src="" alt={project.name} className="project-image" />
+                        <div className="project-image-placeholder" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: 'auto', width: 'auto' }}>
+                            <img
+                                src={project.image}
+                                alt={project.name}
+                                className="project-image"
+                                style={{ objectFit: 'contain', maxWidth: '100%', maxHeight: '100%' }}
+                            />
                         </div>
                         <div className="project-tags">
                             {project.tags.map((tag, i) => (
