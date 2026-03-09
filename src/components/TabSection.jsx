@@ -11,7 +11,7 @@ const tabs = [
     },
     {
         id: 'tech',
-        title: 'Strategic Brand Thinking',
+        title: 'Brand Identity & Visual Design',
         icon: '◈',
         gradient: 'linear-gradient(135deg, #ff7f50, #ff4500)', // Orange gradient
         content:
