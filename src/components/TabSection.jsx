@@ -8,6 +8,7 @@ const tabs = [
         gradient: 'linear-gradient(135deg, #1a1f2e, #2a2f3e)', // Dark blue
         content:
             'I believe great design is not just visual — it’s intentional. Every layout, color, and interaction should serve a purpose. My approach focuses on clarity, emotional impact, and creating interfaces that feel natural and effortless to use.',
+        image: '/Images/projects01.jpg'
     },
     {
         id: 'tech',
@@ -16,6 +17,7 @@ const tabs = [
         gradient: 'linear-gradient(135deg, #ff7f50, #ff4500)', // Orange gradient
         content:
             'Strong digital products are rooted in strong brand foundations. I approach every project by understanding the brand’s voice, positioning, and audience to ensure the design communicates identity, trust, and long-term value.',
+        image: '/Images/projects02.jpg'
     },
     {
         id: 'strategy',
@@ -24,6 +26,7 @@ const tabs = [
         gradient: 'linear-gradient(135deg, #2a4f2e, #3a6f3e)', // Bottle green gradient
         content:
             'Quality is in the details. From typography and spacing to interaction feedback, I hold every element to a high standard of precision to create polished experiences that feel refined and professional.',
+        image: '/Images/projects03.jpg'
     },
     {
         id: 'ux',
@@ -69,6 +72,16 @@ const TabSection = () => {
                 <div className="tab-content" style={{ background: active.gradient }}> {/* Dynamically apply gradient */}
                     <h3>{active.title}</h3>
                     <p>{active.content}</p>
+                    {active.image && (
+                        <div className="tab-image-placeholder" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: 'auto', width: 'auto', marginTop: '20px' }}>
+                            <img
+                                src={active.image}
+                                alt={active.title}
+                                className="tab-image"
+                                style={{ objectFit: 'contain', maxWidth: '100%', maxHeight: '100%' }}
+                            />
+                        </div>
+                    )}
                     <div className="tab-progress">
                         <div className="tab-progress-bar">
                             <div className="tab-progress-fill" />
