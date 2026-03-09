@@ -16,7 +16,7 @@ const Navbar = () => {
         aria-label="Primary navigation"
       >
         <a href="/" className="navbar-logo" aria-label="Veeshall P — Home">
-          Veeshall<span aria-hidden="true">.</span>
+          Veeshall P<span aria-hidden="true">.</span>
         </a>
 
         <ul className="navbar-links" role="list">

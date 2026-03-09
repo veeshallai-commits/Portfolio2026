@@ -6,22 +6,28 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
     {
-        title: 'Spatial Branding',
-        category: 'Architecture',
-        image: 'https://picsum.photos/seed/arch01/800/1000',
-        description: 'Reimagining physical spaces through digital lenses and bold identity.',
+        title: 'Brand Identity & Logo Design',
+        category: 'B R A N D I N G',
+        image: '/Images/projects01.jpg',
+        description: 'Creating distinctive logos and brand systems that define how businesses look, feel, and communicate.',
     },
     {
-        title: 'Zero-Force UX',
-        category: 'Interface Design',
-        image: 'https://picsum.photos/seed/ux02/800/1000',
-        description: 'Interfaces that feel as natural as breathing, crafted for zero friction.',
+        title: 'Marketing & Communication Design',
+        category: 'M A R K E T I N G  D E S I G N',
+        image: '/Images/projects02.jpg',
+        description: 'Designing brochures, banners, hoardings, and promotional materials that capture attention and deliver messages effectively.',
     },
     {
-        title: 'Kinetic Identity',
-        category: 'Motion & Brand',
-        image: 'https://picsum.photos/seed/motion03/800/1000',
-        description: 'Visual systems that evolve in real-time with the brand narrative.',
+        title: 'Branded Merchandise & Collateral',
+        category: 'B R A N D  C O L L A T E R A L',
+        image: '/Images/projects03.jpg',
+        description: 'Extending brand identity across physical products like caps, t-shirts, cups, packaging, and corporate merchandise.',
+    },
+    {
+        title: 'Online Presence & Digital Assets',
+        category: 'D I G I T A L  D E S I G N',
+        image: '/Images/projects04.jpg',
+        description: 'Designing cohesive digital experiences including website layouts, mobile app interfaces, and social media visuals that help brands maintain a strong and consistent presence across digital platforms.',
     },
 ];
 
