@@ -15,7 +15,7 @@ const projects = [
         tags: ['AI Automation', 'Video Production', 'Storytelling', 'YouTube'],
         url: 'https://www.youtube.com/@thedivinespark-veep',
         linkText: 'Visit Channel',
-        image: '/src/assets/images/thedivinespark-veep.png' // Added image property
+        image: '/Images/thedivinespark-veep.png' // Added image property
     },
     {
         name: 'AI Influencer & Social Content Engine',
@@ -24,7 +24,7 @@ const projects = [
         tags: ['AI Characters', 'Social Media', 'Content Creation', 'Instagram'],
         url: 'https://instagram.com/iamshrishaa',
         linkText: 'View Profile',
-        image: '/src/assets/images/iamshrishaa_ai_influencer.png' // Updated image property
+        image: '/Images/iamshrishaa_ai_influencer.png' // Updated image property
     },
 ];
 
